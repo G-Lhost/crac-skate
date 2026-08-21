@@ -1,0 +1,42 @@
+{
+  "name": "CRAC ! — Eduardo Skate Rush",
+  "short_name": "CRAC !",
+  "description": "Eduardo enfourche sa planche : sautez les frites, les altères, l'amaretto et les béquilles.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "display_override": [
+    "fullscreen",
+    "standalone"
+  ],
+  "orientation": "landscape",
+  "background_color": "#262a6e",
+  "theme_color": "#262a6e",
+  "categories": [
+    "games"
+  ],
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

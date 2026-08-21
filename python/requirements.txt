@@ -1,0 +1,3 @@
+# CRAC ! - version bureau
+pygame-ce>=2.4        # fork maintenu de pygame (API identique)
+numpy>=1.22           # optionnel : bruitages generes a la volee

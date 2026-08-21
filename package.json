@@ -1,0 +1,22 @@
+{
+  "name": "crac-eduardo-skate-rush",
+  "version": "2.0.0",
+  "description": "CRAC ! - Eduardo Skate Rush : la suite optimisee du jeu de 2016.",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "serve": "python3 -m http.server 8123 --directory web",
+    "assets": "python3 tools/prepare_assets.py",
+    "sync": "cap sync",
+    "ios": "cap sync ios && cap open ios",
+    "android": "cap sync android && cap open android"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/ios": "^7.0.0",
+    "@capacitor/android": "^7.0.0"
+  }
+}

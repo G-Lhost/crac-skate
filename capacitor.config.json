@@ -1,0 +1,19 @@
+{
+  "appId": "com.eduardo.cracskaterush",
+  "appName": "CRAC !",
+  "webDir": "web",
+  "backgroundColor": "#262a6eff",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#262a6eff",
+    "limitsNavigationsToAppBoundDomains": true
+  },
+  "android": {
+    "backgroundColor": "#262a6eff",
+    "allowMixedContent": false
+  },
+  "server": {
+    "androidScheme": "https",
+    "iosScheme": "capacitor"
+  }
+}

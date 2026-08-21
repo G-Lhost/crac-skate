@@ -1,0 +1,21 @@
+# Dependances installees par npm (regenerees par `npm install`)
+node_modules/
+
+# Les dossiers ios/ et android/ generes par Capacitor sont volontairement
+# SUIVIS par git : c'est la qu'on regle l'orientation paysage dans Info.plist,
+# et `npx cap add ios` ecraserait ces reglages s'ils n'etaient pas versionnes.
+*.xcuserstate
+ios/App/Pods/
+ios/App/App/public/
+android/app/src/main/assets/public/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
